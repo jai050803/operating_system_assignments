@@ -77,20 +77,3 @@ Each assignment showcases practical implementation of core OS concepts such as *
 
 # 🖥️ Assignment 4 — System Calls, VM Detection & File System Operations  
 **Objective:** Implement core OS-level functionalities such as batch processing, system-level logging, system calls, VM detection, and scheduling.
-
----
-
-## **Task 1: Batch Processing Simulation (Python)**
-Simulate batch execution of multiple Python scripts using `subprocess`.
-
-**Key Concepts:**  
-- Batch processing  
-- Subprocess execution  
-
-**Core Code:**
-```python
-import subprocess
-scripts = ['script1.py', 'script2.py', 'script3.py']
-for script in scripts:
-    print(f"Executing {script}...")
-    subprocess.call(['python3', script])
